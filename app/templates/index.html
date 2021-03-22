@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cover Template · Bootstrap v5.0</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='cover.css') }}" rel="stylesheet">
+</head>
+<body class="d-flex h-100 text-center text-white bg-dark">
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+        <div>
+            <h3 class="float-md-start mb-0">Cover</h3>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+                <a class="nav-link active" aria-current="page" href="#">Ящики</a>
+                <a class="nav-link" href="#">Технические задания</a>
+                <a class="nav-link" href="#">Логи</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="px-3">
+        <h1>Страница написанная на bootstrap.</h1>
+        <p class="lead">Это простая страница написанная на Bootstrap. Вот так мог бы выглядеть наш сайт.</p>
+        <p class="lead">
+            <a href="https://getbootstrap.com/" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+        </p>
+    </main>
+
+
+
+    <footer class="mt-auto text-white-50">
+        <p>Страница сделана с помощью <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <span class="text-white">Ваш пездатый босс</span>.</p>
+    </footer>
+</div>
+
+
+</body>
+</html>
